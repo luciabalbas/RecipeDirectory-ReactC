@@ -48,6 +48,27 @@
       ],
       "method": "sdljfdsjfsdkjfdsl\n",
       "cookingTime": "45 minutes"
+    },
+    {
+      "id": "ce98",
+      "title": "Cheesy Pasta",
+      "ingredients": [
+        "Cheese",
+        "Pasta"
+      ],
+      "method": "mimimiClairObscure",
+      "cookingTime": "25 minutes"
+    },
+    {
+      "id": "a0c8",
+      "title": "Macarrones bechamel",
+      "ingredients": [
+        "macarrones",
+        "tomato sauce",
+        "chorizo"
+      ],
+      "method": "kjsdnfkjh dfjkdhfjkdsfkjd sfkjafhakjsdfk jsdbafjksdb fkjabdfskljbfsd",
+      "cookingTime": "40 minutes"
     }
   ]
 }
