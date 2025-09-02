@@ -10,6 +10,7 @@ import { ThemeProvider } from './context/ThemeContext';
 
 // styles
 import './App.css'
+import ThemeSelector from './components/ThemeSelector';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <div className="App">
         <BrowserRouter>
           <Navbar />
+          <ThemeSelector />
           <Switch>
             <Route exact path='/' component={Home} />
             <Route path='/create' component={Create} />
