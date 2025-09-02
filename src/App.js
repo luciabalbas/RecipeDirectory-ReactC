@@ -7,15 +7,17 @@ import Create from './pages/create/Create'
 import Search from './pages/search/Search'
 import Recipe from './pages/recipe/Recipe'
 import { ThemeProvider } from './context/ThemeContext';
+import { useTheme } from './hooks/useTheme';
 
 // styles
 import './App.css'
 import ThemeSelector from './components/ThemeSelector';
 
 function App() {
+  const { mode } = useTheme()
+
   return (
-    <ThemeProvider>
-      <div className="App">
+      <div className={`App ${mode}`}>
         <BrowserRouter>
           <Navbar />
           <ThemeSelector />
@@ -27,7 +29,6 @@ function App() {
           </Switch>
         </BrowserRouter>
       </div>
-    </ThemeProvider>
   );
 }
 
