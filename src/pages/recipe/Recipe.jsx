@@ -40,7 +40,7 @@ export default function Recipe() {
           <h1 className='page-title'>{recipe.title}</h1>
           <p>Takes {recipe.cookingTime} to cook</p>
           <ul>
-            {recipe.ingridients.map(ing => 
+            {recipe.ingredients.map(ing => 
               <li key={ing}>{ing}</li>
             )}
           </ul>
